@@ -62,8 +62,8 @@ main {
     top: 17%;
     left: 50%;
     transform: translate(-50%, 0);
-    min-width: 560px;
-    width: 47%;
+    max-width: 560px;
+    width: 90%;
 }
 
 div.wrapform > * {
@@ -79,7 +79,7 @@ div.wrapform > p:first-child {
 }
 
 div > p:last-child {
-    width: 55%;
+    width: 310px;
     margin: 0 auto;
     color: #ccc;
     line-height: 16px;
@@ -92,6 +92,12 @@ div.wrapform > div {
     margin-top: 3px;
     padding-top: 37px;
     padding-bottom: 22px; 
+}
+
+.setwidth {
+    max-width: 280px;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .line {
@@ -115,16 +121,16 @@ div.wrapform > div {
 }
 
 .line:before {
-    left: 25%;
+    left: 0%;
 }
 
 .line:after {
-    right: 25%;
+    right: 0%;
 }
 
 div.wrapform form {
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
 }
 div.wrapform input {
     width: 100%;
@@ -184,13 +190,13 @@ input[type=checkbox] + label {
     position: relative;
     padding: 0px 56px 0px 70px;
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 34px;
     text-decoration: none;
     text-align: center;
-    letter-spacing: 0.5px;
+    /*letter-spacing: 0.5px;*/
     color: #fff;
     background: linear-gradient(#3f5994, #314373);
     border-radius: 3px;
